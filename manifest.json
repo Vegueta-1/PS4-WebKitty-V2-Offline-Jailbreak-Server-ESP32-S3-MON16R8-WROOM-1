@@ -8,10 +8,8 @@
       "parts": [
         {
           "path": "WebKittyServer_full_factory_16MB_DIO_80MHz.bin",
-          
+          "offset": 0
         }
-    
-        
       ]
     }
   ]
