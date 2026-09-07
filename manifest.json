@@ -1,0 +1,14 @@
+{
+  "name": "ESP32‑S3 MON16R8 WROOM‑1 Universal Firmware",
+  "description": "Flashes app and SPIFFS partitions for ESP32‑S3 MON16R8 WROOM‑1 modules only.",
+  "chips": ["ESP32-S3"],
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "offset": 65536, "path": "app0_0x10000.bin" },
+        { "offset": 3211264, "path": "spiffs_0x310000.bin" }
+      ]
+    }
+  ]
+}
