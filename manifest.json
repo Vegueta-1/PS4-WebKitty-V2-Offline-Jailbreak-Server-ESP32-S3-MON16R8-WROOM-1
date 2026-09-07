@@ -7,7 +7,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "WebKittyServer_full_factory_16MB_DIO_80MHz.bin",
+          "path": "https://github.com/Vegueta-1/PS4-WebKitty-V2-Offline-Jailbreak-Server-ESP32-S3-MON16R8-WROOM-1/releases/download/v1.0/WebKittyServer_full_factory_16MB_DIO_80MHz.bin",
           "offset": 0
         }
       ]
