@@ -11,8 +11,8 @@
 
 A complete, offline PS4 WebKitty V2 exploit host running entirely on the ESP32‑S3 MON16R8 WROOM‑1 module. This project delivers fast page serving, stable caching, and a fully self‑contained jailbreak environment with no internet required. Designed specifically for the MON16R8 WROOM‑1 (16MB flash, 8MB PSRAM).
 
-Go here to flash it via Web Flasher: https://vegueta-1.github.io/PS4-WebKitty-V2-Offline-Jailbreak-Server-ESP32-S3-MON16R8-WROOM-1-/
-
+Go here to flash it via Web Flasher: [ https://vegueta-1.github.io/PS4-WebKitty-V2-Offline-Jailbreak-Server-ESP32-S3-MON16R8-WROOM-1-/
+](https://vegueta-1.github.io/PS4-WebKitty-V2-Offline-Jailbreak-Server-ESP32-S3-MON16R8-WROOM-1/)
 WebKitty
 
 A modular collection of WebKit-based exploit chains for the PlayStation 4.
