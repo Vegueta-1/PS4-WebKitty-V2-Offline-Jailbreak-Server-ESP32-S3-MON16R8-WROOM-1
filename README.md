@@ -20,6 +20,8 @@ Go here to flash it via Web Flasher: [ https://vegueta-1.github.io/PS4-WebKitty-
 
 how to use it download this guide: [User Guide PS4 WebKitty V2 Offline Jailbreak Server ESP32 S3-MON16R8-WROOM-1 ported by Vegueta1.pdf](https://github.com/user-attachments/files/31920517/User.Guide.PS4.WebKitty.V2.Offline.Jailbreak.Server.ESP32.S3-MON16R8-WROOM-1.ported.by.Vegueta1.pdf)
 
+Youtube video test: https://youtu.be/-trfe6O2AJQ
+
 
 
 
