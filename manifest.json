@@ -1,16 +1,17 @@
 {
   "name": "WebKitty ESP32-S3 MON16R8",
   "version": "1.0",
+  "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "app0.bin",
+          "path": "app0_0x10000.bin",
           "offset": 65536
         },
         {
-          "path": "spiffs.bin",
+          "path": "spiffs_0x310000.bin",
           "offset": 3211264
         }
       ]
