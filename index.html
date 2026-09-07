@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>ESP32‑S3 MON16R8 WROOM‑1 Web Flasher</title>
-    <script type="module">
-      import { flash } from "https://unpkg.com/esp-web-tools@9.0.0/dist/web/index.js";
+<head>
+  <meta charset="utf-8" />
+  <title>ESP32‑S3 MON16R8 WROOM‑1 Web Flasher</title>
+  <script
+    type="module"
+    src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module">
+  </script>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.5;
+    }
+    .warning {
+      background: #fff3cd;
+      border: 1px solid #ffecb5;
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    esp-web-install-button {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>ESP32‑S3 MON16R8 WROOM‑1 Web Flasher</h1>
 
-      window.startFlash = () => {
-        flash({
-          manifestUrl: "./manifest.json"
-        });
-      };
-    </script>
-  </head>
-
-  <body>
-    <h1>ESP32‑S3 MON16R8 WROOM‑1 Web Flasher</h1>
-
-    <p><strong>⚠️ WARNING:</strong>  
+  <div class="warning">
+    <strong>⚠️ WARNING:</strong><br>
     This firmware is <u>ONLY</u> for ESP32‑S3 <strong>MON16R8 WROOM‑1</strong> modules  
-    (16MB flash, 8MB embedded PSRAM).  
-    Do <u>not</u> flash this onto other ESP32‑S3 variants.</p>
+    (16MB flash, 8MB embedded PSRAM).<br>
+    Do <u>not</u> flash this onto other ESP32‑S3 variants.
+  </div>
 
-    <p>Connect your ESP32‑S3 MON16R8 WROOM‑1 via USB and click the button below.</p>
+  <p>Connect your ESP32‑S3 MON16R8 WROOM‑1 via USB and click the button below.</p>
 
-    <button onclick="startFlash()">Flash Firmware</button>
+  <!-- This is the correct component -->
+  <esp-web-install-button manifest="./manifest.json">
+    <button slot="activate">Flash Firmware</button>
+  </esp-web-install-button>
 
-    <p>Flashes:</p>
-    <ul>
-      <li>app0 @ 0x10000</li>
-      <li>spiffs @ 0x310000</li>
-    </ul>
+  <p><strong>Flashes:</strong></p>
+  <ul>
+    <li>app0 @ 0x10000</li>
+    <li>spiffs @ 0x310000</li>
+  </ul>
 
-    <p>Your bootloader, NVS, MAC address, RF calibration, and OTA data remain untouched.</p>
-  </body>
+  <p>Your bootloader, NVS, MAC address, RF calibration, and OTA data remain untouched.</p>
+
+  <p style="color:#666; font-size:0.9em;">
+    Requires <strong>Chrome</strong> or <strong>Edge</strong> (Web Serial API).<br>
+    Close any Serial Monitor / Arduino IDE before flashing.
+  </p>
+</body>
 </html>
