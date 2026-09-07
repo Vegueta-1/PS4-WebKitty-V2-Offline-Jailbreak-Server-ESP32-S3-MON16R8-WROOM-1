@@ -37,7 +37,6 @@ Multilingual Support: Dynamic language switcher.
 
 
 Supported by this Repository
-This table indicates firmware versions for which the current version of this repository provides a functional and tested exploit chain.
 
 
 <img width="852" height="419" alt="Screenshot 2026-09-07 093714" src="https://github.com/user-attachments/assets/249f1943-0fec-4642-8b67-db601b721e3d" />
