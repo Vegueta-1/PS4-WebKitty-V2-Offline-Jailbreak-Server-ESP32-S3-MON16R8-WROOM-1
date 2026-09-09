@@ -18,11 +18,25 @@ A complete, offline PS4 WebKitty V2 exploit host running entirely on the ESP32�
 Go here to flash it via Web Flasher: [ https://vegueta-1.github.io/PS4-WebKitty-V2-Offline-Jailbreak-Server-ESP32-S3-MON16R8-WROOM-1-/
 ](https://vegueta-1.github.io/PS4-WebKitty-V2-Offline-Jailbreak-Server-ESP32-S3-MON16R8-WROOM-1/)
 
-how to use it download this guide: [User Guide PS4 WebKitty V2 Offline Jailbreak Server ESP32 S3-MON16R8-WROOM-1 ported by Vegueta1.pdf](https://github.com/user-attachments/files/31920517/User.Guide.PS4.WebKitty.V2.Offline.Jailbreak.Server.ESP32.S3-MON16R8-WROOM-1.ported.by.Vegueta1.pdf)
+
 
 Youtube video test: https://youtu.be/-trfe6O2AJQ
 
 
+
+How to use it:
+
+- Connect the PS4 to WebKitty-PS4.
+
+- Go to Settings → Network → Set Up Internet Connection → Use Wi-Fi → Automatic
+
+- Select WebKitty-PS4
+
+-Test Connection
+
+- Do not open the Internet Browser.
+
+- Go to Settings → User’s Guide / Helpful Info → User Guide
 
 
 WebKitty
@@ -48,7 +62,6 @@ Multilingual Support: Dynamic language switcher.
 
 
 
-Supported by this Repository
 
 
 <img width="852" height="419" alt="Screenshot 2026-09-07 093714" src="https://github.com/user-attachments/assets/249f1943-0fec-4642-8b67-db601b721e3d" />
