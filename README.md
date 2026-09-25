@@ -26,17 +26,13 @@ Youtube video test: https://youtu.be/-trfe6O2AJQ
 
 How to use it:
 
-- Connect the PS4 to ESP32-S3 Exploit-PS4 →Password is→ password
-
-- Go to Settings → Network → Set Up Internet Connection → Use Wi-Fi → Manual if not it will give you a error
-
-- Select ESP32-S3 Exploit-PS4 
+- Go to Settings → Network → Set Up Internet Connection → Use Wi-Fi → Custom if not it will give you an error Connect the PS4 to ESP32-S3 Exploit-PS4 →Password is→ password→ IP Adress Settings- Automatic→ DHCP Host Name- Do Not Specify→ DNS Settings- Automatic→ MTU Settings- Automatic→ Proxy Server- Do Not Use.
 
 -Test Connection
 
 - Do not open the Internet Browser.
 
-- Go to Settings → User’s Guide / Helpful Info → User Guide
+- Go to Settings → User's Guide / Helpful Info → User Guide
 
 
 WebKitty
