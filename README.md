@@ -26,11 +26,11 @@ Youtube video test: https://youtu.be/-trfe6O2AJQ
 
 How to use it:
 
-- Connect the PS4 to WebKitty-PS4.
+- Connect the PS4 to ESP32-S3 Exploit-PS4 →Password is→ password
 
-- Go to Settings → Network → Set Up Internet Connection → Use Wi-Fi → Automatic
+- Go to Settings → Network → Set Up Internet Connection → Use Wi-Fi → Manual if not it will give you a error
 
-- Select WebKitty-PS4
+- Select ESP32-S3 Exploit-PS4 
 
 -Test Connection
 
