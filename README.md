@@ -1,5 +1,6 @@
 
-<img width="2144" height="496" alt="vegueta1 1280x300 pixels" src="https://github.com/user-attachments/assets/28562fe1-c0d1-4990-ba76-7449770ef4d3" />
+<img width="2112" height="480" alt="vegueta1 1280x300 pixels" src="https://github.com/user-attachments/assets/4b1d96b6-ce4e-4910-8223-75f5685dd287" />
+
 
 
 
